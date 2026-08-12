@@ -55,7 +55,7 @@ a {
   justify-content: center;
   width: 56px;
   height: 56px;
-  border-radius: 16px;
+  border-radius: 50%;
   overflow: hidden;
   border: 1px solid var(--border);
   background: rgba(255, 255, 255, 0.04);
@@ -100,6 +100,11 @@ a {
   grid-template-columns: 1fr 1fr;
   gap: 32px;
   align-items: start;
+}
+
+.hero-copy {
+  display: grid;
+  gap: 24px;
 }
 
 .eyebrow {
@@ -231,6 +236,10 @@ h1 {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.main-outreach-image {
+  object-position: 60% 35%;
 }
 
 .image-caption {
@@ -559,8 +568,8 @@ h1 {
 }
 
 .detail-list {
-  list-style: none;
-  padding: 0;
+  list-style: disc inside;
+  padding-left: 18px;
   margin: 0;
   display: grid;
   gap: 8px;
